@@ -1,0 +1,593 @@
+
+
+
+@media all and (max-width: 1190px){
+
+h2{
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+}
+
+/* Header Section Start */
+
+.header-wrapper{
+    gap: 20px;
+}
+
+.menu nav ul{
+    gap: 20px;
+}
+
+.menu nav ul li a{
+    font-size: 1.4rem;
+}
+.header-items{
+    gap: 20px;
+}
+
+.search-bar{
+    padding: 12px 14px;
+    width: 300px;
+}
+
+.profile-icon i{
+    padding: 12px;
+}
+
+.header-btn a{
+    font-size: 1.5rem;
+    padding: 12px 20px;
+}
+
+/* Header Section End */
+
+
+/* Hero Section Start */
+
+
+h1{
+    font-size: 6rem;
+    line-height: 6.6rem;
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.hero-image img{
+    left: 50px;
+}
+
+/* Hero Section End */
+
+
+/* Featured Section Start */
+
+.featured-wrapper{
+    gap: 80px;
+}
+
+.featured-btn {
+	margin: 35px 0px 25px;
+}
+
+.featured-wrapper::before{
+    width: 280px;
+}
+
+/* Featured Section End */
+
+
+/* Product Section Start */
+
+.testimonial{
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin: 4rem 0rem 4.5rem;
+}
+
+/* Product Section End */
+}
+
+
+@media all and (max-width: 1020px){
+
+h2{
+    font-size: 3.4rem;
+    line-height: 4rem;
+}
+
+/* Header Section Start */
+
+.menu nav ul{
+    gap: 20px;
+}
+
+.menu nav ul li a{
+    font-size: 1.4rem;
+}
+
+.header-items{
+    flex-basis: 45%;
+    gap: 20px;
+}
+
+.search-bar{
+    padding: 12px 14px;
+}
+
+.search-bar{
+    width: auto;
+}
+
+/* Header Section End */
+
+
+/* Hero Section Start */
+
+h1{
+    font-size: 5.5rem;
+    line-height: 6.6rem;
+}
+
+/* Hero Section End */
+
+
+/* Featured Section Start */
+
+.featured-wrapper::before{
+    width: 250px;
+}
+
+/* Featured Section End */
+
+
+/* Product Section Start */
+
+.testimonial-wrapper{
+    gap: 10rem;
+}
+
+.testimonial{
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 3.5rem 0rem 4rem;
+}
+
+/* Product Section End */
+
+}
+
+
+@media all and (max-width: 992px){
+
+:root{
+    --section-margin: 100px 0px;
+    --section-padding: 70px 0px;
+}
+
+.footer-section{
+    padding: 70px 0px 50px;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+p.p2{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+} 
+p.p3{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+} 
+
+/* Header Section Start */
+
+.header-section{
+    background-color: #fff;
+    padding: 15px 0px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.menu{
+    display: none;
+}
+
+.profile-icon{
+    display: none;
+}
+
+.hamberger{
+    display: block;
+    font-size: 3.5rem;
+    transition: all ease .3s;
+}
+.hamberger:hover{
+    color: var(--prymari-color);
+}
+
+.header-btn{
+    display: none;
+}
+
+.header-items{
+    flex-basis: 80%;
+    gap: 20px;
+}
+
+/* Header Section End */
+
+
+/* Hero Section Start */
+
+.hero-section{
+    padding: 30px 0px;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.hero-content h1::after{
+    width: 65px;
+    bottom: -5px;
+}
+
+.hero-image img{
+    left: 20px;
+}
+
+/* Hero Section End */
+
+
+/* Featured Section Start */
+
+.featured-wrapper{
+    gap: 50px;
+}
+
+.featured-wrapper::before{
+    width: 200px;
+    top: 70px;
+}
+
+.featured-btn {
+	margin: 35px 0px 0px;
+}
+
+
+/* Featured Section End */
+
+
+/* Product Section Start */
+
+.content-box{
+    width: 80%;
+}
+
+.product-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 12rem;
+}
+
+/* Product Section End */
+
+
+/* Slider Section Start */
+
+.testimonial-wrapper{
+    gap: 6rem;
+}
+
+.test-navigator{
+    gap: 2rem;
+}
+
+/* Slider Section End */
+
+
+/* Footer Section End */
+
+.footer-menu{
+    display: block;
+}
+
+.footer-menu nav ul{
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+/* Footer Section Start */
+}
+
+
+@media all and (max-width: 720px){
+
+:root{
+    --section-margin: 100px 0px;
+    --section-padding: 55px 0px;
+}
+
+.footer-section{
+    padding: 55px 0px 38px;
+}
+
+h2{
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+}
+
+
+/* Hero Section Start */
+
+.hero-section{
+    background-size: 100%;
+    background-position: top right;
+    padding: 30px 0px 55px;
+}
+.hero-wrapper{
+    flex-direction: column-reverse;
+    gap: 100px;
+}
+
+.hero-content{
+    width: 100%;
+}
+
+.hero-image{
+    width: 100%;
+    padding-top: 0;
+}
+
+.hero-image img{
+    position: static;
+}
+
+.hero-content p {
+	font-size: 14px;
+}
+
+
+.hero-image img{
+    left: 0px;
+}
+
+/* Hero Section End */
+
+
+/* Featured Section Start */
+
+.featured-wrapper::before{
+    width: 120px;
+    top: 50px;
+}
+
+.featured-wrapper{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.featured-product-image h2{
+    width: 80%;
+}
+
+.featured-product-image{
+    width: 100%;
+}
+.featured-product-image img{
+    width: 100%;
+}
+
+.featured-product-content{
+    width: 100%;
+}
+/* Featured Section End */
+
+
+/* Product Section Start */
+
+.content-box{
+    width: 100%;
+}
+
+.product-grid{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* Product Section End */
+
+
+/* Slider Section Start */
+
+.slider-section{
+    background-color: #fff;
+    margin-bottom: 70px;
+}
+
+.slider-grid{
+    grid-gap: 38px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+        "h h h h h h"
+        "w w w w w w"
+        "b b b b b b"
+        "d d d d d d"
+    ;
+}
+
+.slider-1{
+    width: ;
+}
+
+.slider-2{
+    display: none;
+}
+
+.dot-image{
+    margin-top: -40px;
+}
+
+/* Slider Section End */
+
+
+/* Testimonial Section Start */
+
+.testimonial-wrapper{
+    flex-direction: column-reverse;
+    gap: 3.8rem;
+}
+
+.test-content{
+    width: 100%;
+}
+
+.test-image {
+    width: 100%;
+}
+
+.text-box{
+    flex-direction: column;
+    align-items: start;
+    gap: 2.8rem;
+}
+
+.testimonial{
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 2.8rem 0rem 3.8rem;
+}
+
+/* Testimonial Section End */
+
+
+/* CTA Section Start */
+
+.cta-wrapper{
+    width: 80%;
+}
+
+/* CTA Section End */
+
+
+/* Footer Section End */
+
+.footer-wrapper{
+    flex-direction: column-reverse;
+    gap: 3.8rem;
+}
+
+.footer-content{
+    width: 100%;
+}
+
+.footer-image{
+    width: 100%;
+}
+
+/* Footer Section Start */
+}
+
+
+@media all and (max-width: 576px){
+
+h2{
+    font-size: 2.6rem;
+    line-height: 3rem;
+}
+p.p2{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+     
+/* Header Section Start */
+
+.search-bar{
+   display: none;
+}
+
+/* Header Section End */
+
+
+/* Hero Section Start */
+.hero-wrapper{
+    flex-direction: column-reverse;
+    gap: 90px;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 4.6rem;
+}
+
+.hero-content h1::after{
+    width: 45px;
+    height: 37px;
+    bottom: 1px;
+}
+
+
+/* Hero Section End */
+
+
+/* Featured Section Start */
+
+.featured-product-image h2{
+    width: 100%;
+}
+
+.featured-wrapper::before{
+    width: 75px;
+    top: 80px;
+}
+
+.footer-menu nav ul{
+    flex-direction: column;
+}
+
+/* Featured Section End */
+
+
+/* Product Section Start */
+
+.product-grid{
+    grid-row-gap: 11rem;
+}
+.grid-button{
+    margin-top: 3.8rem;
+}
+
+/* Product Section End */
+
+
+/* Slider Section Start */
+
+.testimonial{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+/* Slider Section End */
+
+
+/* CTA Section Start */
+
+.cta-wrapper{
+    width: 100%;
+}
+
+/* CTA Section End */
+
+
+/* Footer Section End */
+
+
+
+/* Footer Section Start */
+}
